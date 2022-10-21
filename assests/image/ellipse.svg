@@ -1,0 +1,22 @@
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1016.21 377.5">
+  <defs>
+    <linearGradient id="Gradiente_sem_nome_10" data-name="Gradiente sem nome 10" x1="530.5" y1="364.94" x2="530.5" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#346aff"/>
+      <stop offset="0.15" stop-color="#346aff" stop-opacity="0.8"/>
+      <stop offset="0.39" stop-color="#346aff" stop-opacity="0.52"/>
+      <stop offset="0.6" stop-color="#346aff" stop-opacity="0.3"/>
+      <stop offset="0.77" stop-color="#346aff" stop-opacity="0.14"/>
+      <stop offset="0.92" stop-color="#346aff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#346aff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_2" data-name="Gradiente sem nome 2" x1="530.5" y1="417.5" x2="530.5" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <title>Ellipse 1</title>
+  <g>
+    <path d="M530.5,40C290.88,40,88.38,198.86,22.55,417h1015.9C972.62,198.86,770.12,40,530.5,40Z" transform="translate(-22.4 -40)" style="fill: url(#Gradiente_sem_nome_10)"/>
+    <path d="M1037.93,417H23.07C88.88,199.14,291.17,40.5,530.5,40.5S972.12,199.14,1037.93,417Z" transform="translate(-22.4 -40)" style="fill: none;stroke: url(#Gradiente_sem_nome_2)"/>
+  </g>
+</svg>

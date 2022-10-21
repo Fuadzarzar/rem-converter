@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset='UTF-8'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name="theme-color" content="#050505" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#050505">
+    <link rel='stylesheet' href='./styles/reset.css'>
+    <link rel='stylesheet' href='./styles/style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Conversor Rem | Converta Rem para Px e outros </title>
+</head>
+
+<body>
+    <header>
+        <div id="logo-content">
+            <img class="logo" src="./assests/logo/logo.svg" alt="">
+        </div>
+        <div id="nav">
+            <p class="menu">Sobre</p>
+            <div id="darkmode-content">
+                <div id="sun-content">
+                    <img class="change-theme sun" src="./assests/image/sun.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="home-text-content">
+            <h1 id="title">Conversor de REM para PIXEL</h1>
+            <h2 class="subtitle">Você pode mudar abaixo o tamanho da fonte base de referência:</h2>
+        </div>
+        <div id="convert-container">
+            <div class="conversion-box side-left">
+                    <div id="arrow-content">
+                        <img class="image-arrow" src="./assests/image/down-arrow.png" alt="">
+                    </div>
+                    <div class="input-content input-left">
+                        <input onkeyup="calcula()"  id="remetente" class="input-default default-left" type="number" placeholder="0">
+                        <p>rem</p>
+                    </div>
+            </div>
+            <div class="button-change">
+                <img src="./assests/image/arrow-change.png" alt="">
+            </div>
+
+            <div class="conversion-box side-right">
+                    <div class="input-content input-right">
+                        <input id="inputNovo" class="input-default default-right" type="number" placeholder="0" value="0">
+                        <p>px</p>
+                    </div>
+                    <div onclick="copyValue()" id="copy-content">
+                        <img class="image-copy" src="./assests/image/copy.png" alt="">
+                    </div>
+            </div>
+        </div>
+        <div id="base-content">
+            <input onkeyup="calcula()" onkeydown="changeValue(baseNumber)" id="font-default" type="number" value="16">
+            <p class="subtitle">Fonte padrão</p>
+        </div>
+        <div class="ellipse"></div>
+    </main>
+
+    <div id="table-icon" onclick="showTable()">
+        <img src="./assests/image/table-column.png" alt="">
+    </div>
+        <div id="tables" >
+            <span onclick="closeTable()" >X</span>
+                <table>
+                    <tbody>
+                    <tr>
+                        <th>Pixels</th>
+                        <th>Rem</th>
+                        <th>Rem</th>
+                        <th>Pixels</th>
+                    </tr>
+                    <tr>
+                        <td>1px</td>
+                        <td>0.06rem</td>
+                        <td>0.01rem</td>
+                        <td>0.16px</td>
+                    </tr>
+                    <tr>
+                        <td>2px</td>
+                        <td>0.13rem</td>
+                        <td>0.03rem</td>
+                        <td>0.5px</td>
+                    </tr>
+                    <tr>
+                        <td>3px</td>
+                        <td>0.19rem</td>
+                        <td>0.05rem</td>
+                        <td>0.8px</td>
+                    </tr>
+                    <tr>
+                        <td>4px</td>
+                        <td>0.3rem</td>
+                        <td>0.08rem</td>
+                        <td>1.3px</td>
+                    </tr>
+                    <tr>
+                        <td>5px</td>
+                        <td>0.3rem</td>
+                        <td>0.1rem</td>
+                        <td>1.6px</td>
+                    </tr>
+                    <tr>
+                        <td>6px</td>
+                        <td>0.4rem</td>
+                        <td>0.15rem</td>
+                        <td>2px</td>
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+
+    <p class="github-text">Veja todos os meus projetos no Github clicando <u>aqui</u></p>
+
+    <script src="./scripts.js"></script>
+
+</body>
+
+</html>

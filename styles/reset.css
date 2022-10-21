@@ -1,0 +1,61 @@
+@import './style.css';
+
+* {
+
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    outline: none;
+    padding: 0px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ::selection {
+    color: var(--primary-bank);
+} */
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    border: none;
+
+}
+
+body, html {
+    height: 100vh;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: aliceblue;
+}
+
+body {
+    background: var(--black-primary);
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
