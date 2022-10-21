@@ -52,7 +52,7 @@ Converter REM to Pixel - Pixel to Rem (This is an old and outdated project. Will
 
 ![preview img](/base.jpg)
 
-Live preview [here](https://git-scm.com)
+Live preview [here](https://fuadzarzar.github.io/rem-converter/)
 
 ## :rocket: Technologies ##
 
